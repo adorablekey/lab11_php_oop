@@ -27,25 +27,43 @@ Tujuan struktur ini:
  # Penjelasan File Penting
 # A. File Database.php
 Merupakan class OOP untuk menyambungkan PHP ke MySQL.
+
 Fungsinya meliputi:
 koneksi database
+
 query
+
 insert
+
 update
+
 get data
+
 Dengan class ini, kamu tidak perlu query manual di tiap file.
 
 # B. File Form.php
 Class OOP untuk membuat form input dinamis.
+
 Fungsi yang disediakan:
+
 addField() → menambah input
+
 displayForm() → menampilkan form otomatis
+
 Mendukung:
+
 text
+
 textarea
+
 select
+
 radio
+
 checkbox
+
 password
+
 Tujuan:
+
 Agar form dibuat otomatis melalui OOP, bukan manual.
